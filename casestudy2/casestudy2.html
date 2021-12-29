@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <title>CaseStudy_Ping-pong Game</title>
+    <style>
+        body {
+            background-color: #33CB80;
+        }
+        #pong,
+        #newGame,
+        #pause {
+            display: unset;
+            border: 2px solid #FFF;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body onkeydown="keydownHandler(event)">
+    <canvas id="pong" width="600" height="400"></canvas>
+    <canvas id="newGame" width="600" height="400"></canvas>
+    <canvas id="pause" width="600" height="400"></canvas>
+    <script src="casestudy2.js"></script>
+</body>
+
+</html>
